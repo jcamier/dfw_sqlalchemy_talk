@@ -1,2 +1,6 @@
 .DS_Store
 .ipynb_checkpoints/
+py37/
+.idea/
+mysite/polls/__pycache__/
+mysite/polls/migrations/
