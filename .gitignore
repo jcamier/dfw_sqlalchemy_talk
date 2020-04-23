@@ -4,3 +4,4 @@ py37/
 .idea/
 mysite/polls/__pycache__/
 mysite/polls/migrations/
+mysite/mysite/__pycache__*
