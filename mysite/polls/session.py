@@ -1,9 +1,7 @@
 import os
 import sqlalchemy
-from sqlalchemy import Table, Column, Integer, String
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.engine import reflection
-from typing import List
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -26,7 +24,7 @@ session = Session()
 auth_user_table = metadata.tables['auth_user']
 
 
-def get_all_meta_tables() -> List:
+def get_all_meta_tables():
     return insp.get_table_names()
 
 
