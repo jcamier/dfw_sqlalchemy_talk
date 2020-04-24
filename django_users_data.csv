@@ -1,0 +1,6 @@
+username,password,email,first_name,last_name,is_superuser,is_staff,is_active
+admin@example.com,test1234,admin@example.com,Admin,,1,1,1
+chris@example.com,test1234,chris@example.com,Chris,Smith,0,1,1
+bill@example.com,test1234,bill@example.com,Bill,Jackson,0,1,1
+sue@example.com,test1234,sue@example.com,Sue,Stein,0,1,1
+nikhil@example.com,test1234,nikhil@example.com,Nikhil,Anwar,0,1,1
